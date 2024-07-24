@@ -1,0 +1,1319 @@
+GPU ANGLE (AMD Radeon RX 580 2048SP Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'C:/Users/Maury Neto/Desktop/PokeShiny/Cliente PShiny New/'
+== application started at Jul 22 2024 00:32:49
+Pokemon Shiny 3.2 rev 0 (dev) made by otclient.net built on Jul 21 2024 for arch x86
+ERROR: Layour retro doesn't exist, using default
+ERROR: Unable to discover module from file '/modules/client/rcsound.otmod': OTML error in '/modules/client/rcsound.otmod' at line 2: must indent every 2 spaces
+ERROR: Failed to import UI styles from '/styles/40-console2.otui': OTML error in '/data/styles/40-console2.otui' at line 60: must indent every 2 spaces
+ERROR: font 'verdana-11px-monochrome_cp1252' not found
+ERROR: protected lua call failed: /modules/game_console/console.lua:285: attempt to index field 'game_walking' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_console/console.lua:285: in function 'disableChat'
+	/modules/game_console/console.lua:224: in function 'toggleChat'
+	/data/styles/40-console.otui:80: [@onCheckChange]:2: in function </data/styles/40-console.otui:80: [@onCheckChange]:1>
+	[C]: in function 'disableChat'
+	/modules/game_console/console.lua:196: in function 'init'
+	/modules/game_console/console.otmod:8:[@onLoad]:1: in main chunk
+	[C]: in function 'ensureModuleLoaded'
+	/init.lua:71: in function 'loadModules'
+	/init.lua:88: in main chunk
+ERROR: font 'sans-16px-bold' not found
+ERROR: Unable to load texture '/images/game/slots/neck': unable to open file '/images/game/slots/neck.png': not found
+ERROR: Unable to load texture '/images/game/slots/back': unable to open file '/images/game/slots/back.png': not found
+ERROR: Unable to load texture '/images/game/slots/right-hand': unable to open file '/images/game/slots/right-hand.png': not found
+ERROR: Unable to load texture '/images/game/slots/finger': unable to open file '/images/game/slots/finger.png': not found
+ERROR: Unable to load texture '/images/game/slots/head': unable to open file '/images/game/slots/head.png': not found
+ERROR: Unable to load texture '/images/game/slots/left-hand': unable to open file '/images/game/slots/left-hand.png': not found
+ERROR: Unable to load texture '/images/game/slots/feet': unable to open file '/images/game/slots/feet.png': not found
+ERROR: Unable to load texture '/images/game/slots/legs': unable to open file '/images/game/slots/legs.png': not found
+ERROR: Unable to load texture '/images/game/slots/body': unable to open file '/images/game/slots/body.png': not found
+ERROR: Unable to load texture '/images/game/slots/back': unable to open file '/images/game/slots/back.png': not found
+ERROR: Unable to load texture '/images/game/slots/ammo': unable to open file '/images/game/slots/ammo.png': not found
+ERROR: Unable to load texture '/images/game/slots/purse': unable to open file '/images/game/slots/purse.png': not found
+ERROR: Unable to load texture '/images/game/slots/head': unable to open file '/images/game/slots/head.png': not found
+ERROR: Unable to load texture '/images/game/slots/neck': unable to open file '/images/game/slots/neck.png': not found
+ERROR: Unable to load texture '/images/game/slots/back': unable to open file '/images/game/slots/back.png': not found
+ERROR: Unable to load texture '/images/game/slots/body': unable to open file '/images/game/slots/body.png': not found
+ERROR: Unable to load texture '/images/game/slots/right-hand': unable to open file '/images/game/slots/right-hand.png': not found
+ERROR: Unable to load texture '/images/game/slots/left-hand': unable to open file '/images/game/slots/left-hand.png': not found
+ERROR: Unable to load texture '/images/game/slots/legs': unable to open file '/images/game/slots/legs.png': not found
+ERROR: unable to retrieve style '': not a defined style
+stack traceback:
+	[C]: in function 'setStyle'
+	/modules/game_inventory/inventory.lua:287: in function 'onInventoryChange'
+	/modules/game_inventory/inventory.lua:221: in function 'refresh'
+	/modules/game_inventory/inventory.lua:145: in function 'init'
+	/modules/game_inventory/inventory.otmod:8:[@onLoad]:1: in main chunk
+	[C]: in function 'ensureModuleLoaded'
+	/init.lua:71: in function 'loadModules'
+	/init.lua:88: in main chunk
+at:
+	[C++]: ?setStyle@UIWidget@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ERROR: Unable to load texture '/images/game/slots/finger': unable to open file '/images/game/slots/finger.png': not found
+ERROR: Unable to load texture '/images/game/slots/ammo': unable to open file '/images/game/slots/ammo.png': not found
+ERROR: failed to apply style to widget 'widget796': LUA ERROR: /modules/game_minimap/minimap.otui:155: [!tooltip]:1: invalid escape sequence near ''Segure o botão esquerdo do mouse para navegar'
+stack traceback:
+	[builtin#146]: at 0x0135b950
+	[C]: in function 'loadUI'
+	/modules/game_minimap/minimap.lua:11: in function 'init'
+	/modules/game_minimap/minimap.otmod:8:[@onLoad]:1: in main chunk
+	[C]: in function 'ensureModuleLoaded'
+	/init.lua:71: in function 'loadModules'
+	/init.lua:88: in main chunk
+stack traceback:
+	[C]: in function 'loadUI'
+	/modules/game_minimap/minimap.lua:11: in function 'init'
+	/modules/game_minimap/minimap.otmod:8:[@onLoad]:1: in main chunk
+	[C]: in function 'ensureModuleLoaded'
+	/init.lua:71: in function 'loadModules'
+	/init.lua:88: in main chunk
+at:
+	[C++]: ?applyStyle@UIWidget@@QAEXABV?$shared_object_ptr@VOTMLNode@@@stdext@@@Z
+ERROR: Unable to find module 'game_bank' required by 'game_interface'
+ERROR: Unable to load texture '/images/topbuttons/cooldowns': unable to open file '/images/topbuttons/cooldowns.png': not found
+ERROR: Unable to load texture '/images/topbuttons/cooldowns': unable to open file '/images/topbuttons/cooldowns.png': not found
+ERROR: Unable to find module 'game_bank' required by 'game_interface'
+ERROR: Unable to find module 'game_easybot' required by 'game_interface'
+ERROR: protected lua call failed: /modules/game_pokedex/pokedex.lua:382: attempt to index global 'pokemonSearch' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokedex/pokedex.lua:382: in function 'searchPokemon'
+	/data/styles/30-pokedex.otui:59: [@onTextChange]:2: in function </data/styles/30-pokedex.otui:59: [@onTextChange]:1>
+	[C]: in function 'displayUI'
+	/modules/game_pokedex/pokedex.lua:13: in function 'init'
+	/modules/game_pokedex/pokedex.otmod:8:[@onLoad]:1: in main chunk
+	[C]: in function 'ensureModuleLoaded'
+	/init.lua:71: in function 'loadModules'
+	/init.lua:88: in main chunk
+ERROR: Unable to load texture '/modules/game_pokeinffo/order': unable to open file '/modules/game_pokeinffo/order.png': not found
+ERROR: Unable to find module 'game_bosshealth' required by 'game_interface'
+ERROR: Unable to load texture '/images/questlog/mostrarButton': unable to open file '/images/questlog/mostrarButton.png': not found
+ERROR: Unable to load texture '/images/questlog/miniwindow': unable to open file '/images/questlog/miniwindow.png': not found
+ERROR: Unable to find module 'game_city' required by 'game_interface'
+ERROR: font '123' not found
+ERROR: font '123' not found
+ERROR: font '123' not found
+ERROR: font '123' not found
+ERROR: font '123' not found
+ERROR: font '123' not found
+ERROR: /modules/rc_sound/rcsound.lua:207: attempt to index global 'soundButton' (a nil value)
+ERROR: lua function callback failed: /modules/corelib/util.lua:56: attempt to index local 'object' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/corelib/util.lua:56: in function 'connect'
+	/modules/corelib/ui/uiscrollarea.lua:76: in function 'setVerticalScrollBar'
+	/modules/corelib/ui/uiscrollarea.lua:19: in function </modules/corelib/ui/uiscrollarea.lua:16>
+ERROR: lua function callback failed: /modules/corelib/util.lua:56: attempt to index local 'object' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/corelib/util.lua:56: in function 'connect'
+	/modules/corelib/ui/uiscrollarea.lua:76: in function 'setVerticalScrollBar'
+	/modules/corelib/ui/uiscrollarea.lua:19: in function </modules/corelib/ui/uiscrollarea.lua:16>
+ERROR: lua function callback failed: /modules/corelib/util.lua:56: attempt to index local 'object' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/corelib/util.lua:56: in function 'connect'
+	/modules/corelib/ui/uiscrollarea.lua:76: in function 'setVerticalScrollBar'
+	/modules/corelib/ui/uiscrollarea.lua:19: in function </modules/corelib/ui/uiscrollarea.lua:16>
+ERROR: Unable to load texture '/images/game/slots/head': unable to open file '/images/game/slots/head.png': not found
+ERROR: Unable to load texture '/images/game/slots/neck': unable to open file '/images/game/slots/neck.png': not found
+ERROR: Unable to load texture '/images/game/slots/back': unable to open file '/images/game/slots/back.png': not found
+ERROR: Unable to load texture '/images/game/slots/body': unable to open file '/images/game/slots/body.png': not found
+ERROR: Unable to load texture '/images/game/slots/right-hand': unable to open file '/images/game/slots/right-hand.png': not found
+ERROR: Unable to load texture '/images/game/slots/legs': unable to open file '/images/game/slots/legs.png': not found
+ERROR: unable to retrieve style '': not a defined style
+stack traceback:
+	[C]: in function 'setStyle'
+	/modules/game_inventory/inventory.lua:287: in function 'onInventoryChange'
+	/modules/game_inventory/inventory.lua:219: in function </modules/game_inventory/inventory.lua:215>
+at:
+	[C++]: ?setStyle@UIWidget@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+RC Sounds: New sound area detected:
+  Position: {x=3028, y=1814, z=7}
+  Music: music/cidade pallet.ogg
+RC Sounds: New sound area detected:
+  Left music area.
+RC Sounds: New sound area detected:
+  Position: {x=3033, y=1801, z=7}
+  Music: music/forest_01.ogg
+RC Sounds: New sound area detected:
+  Left music area.
+RC Sounds: New sound area detected:
+  Position: {x=3033, y=1805, z=7}
+  Music: music/cidade pallet.ogg
+RC Sounds: New sound area detected:
+  Position: {x=3051, y=1833, z=6}
+  Music: music/oak.ogg
+RC Sounds: New sound area detected:
+  Position: {x=3051, y=1835, z=6}
+  Music: music/cidade pallet.ogg
+0@0@1@Box PS,15,Box PS,1|Box Especial PS,30,Box Especial PS,2|PS Ball (10x),5,PS Ball (10x),3|PS Ball (100x),15,PS Ball (100x),4|PS Ball (500x),45,PS Ball (500x),5|Change Gender,5,Change Gender,6|Change Clan,?,ChangeClan,0|Bless,3,Bless,7|10 VIP Days,5,10 VIP Days,8|30 VIP Days,10,30 VIP Days,9|60 VIP Days,18,60 VIP Days,10|90 VIP Days,25,90 VIP Days,11|Starter Kit,10,Starter Kit,12|Addon Box,15,Addon Box,13|Bike Box,8,Bike Box,14|BoxBota1,35,BoxBota1,15|Box Guardian,50,Box Guardian,16|Box Guardian Shiny,120,Box Guardian Shiny,17|Shiny Charm (3d),15,Shiny Charm (3d),18|Shiny Charm (7d),30,Shiny Charm (7d),19|Shiny Charm (1m),60,Shiny Charm (1m),20|Boost Stone (2x),5,Boost Stone (2x),21|XP_Boost_20_(1h),5,XP_Boost_20_(1h),22|XP_Boost_40_(1h),8,XP_Boost_40_(1h),23|XP_Boost_20_(1w),25,XP_Boost_20_(1w),24|XP_Boost_40_(1w),35,XP_Boost_40_(1w),25|XP_Boost_30_(1m),70,XP_Boost_30_(1m),26|XP_Boost_40_(1m),105,XP_Boost_40_(1m),27|Incubadora Basic,5,Incubadora Basic,28|Incubadora Advanced,9,Incubadora Advanced,29|Ditto,50,Ditto,30|Shiny Ditto,250,Shiny Ditto,31|MemoryDitto,15,MemoryDitto,32|MemoryDitto2,10,MemoryDitto2,33|MemoryShiny,50,MemoryShiny,34
+0@0@1@Box PS,15,Box PS,1|Box Especial PS,30,Box Especial PS,2|PS Ball (10x),5,PS Ball (10x),3|PS Ball (100x),15,PS Ball (100x),4|PS Ball (500x),45,PS Ball (500x),5|Change Gender,5,Change Gender,6|Change Clan,?,ChangeClan,0|Bless,3,Bless,7|10 VIP Days,5,10 VIP Days,8|30 VIP Days,10,30 VIP Days,9|60 VIP Days,18,60 VIP Days,10|90 VIP Days,25,90 VIP Days,11|Starter Kit,10,Starter Kit,12|Addon Box,15,Addon Box,13|Bike Box,8,Bike Box,14|BoxBota1,35,BoxBota1,15|Box Guardian,50,Box Guardian,16|Box Guardian Shiny,120,Box Guardian Shiny,17|Shiny Charm (3d),15,Shiny Charm (3d),18|Shiny Charm (7d),30,Shiny Charm (7d),19|Shiny Charm (1m),60,Shiny Charm (1m),20|Boost Stone (2x),5,Boost Stone (2x),21|XP_Boost_20_(1h),5,XP_Boost_20_(1h),22|XP_Boost_40_(1h),8,XP_Boost_40_(1h),23|XP_Boost_20_(1w),25,XP_Boost_20_(1w),24|XP_Boost_40_(1w),35,XP_Boost_40_(1w),25|XP_Boost_30_(1m),70,XP_Boost_30_(1m),26|XP_Boost_40_(1m),105,XP_Boost_40_(1m),27|Incubadora Basic,5,Incubadora Basic,28|Incubadora Advanced,9,Incubadora Advanced,29|Ditto,50,Ditto,30|Shiny Ditto,250,Shiny Ditto,31|MemoryDitto,15,MemoryDitto,32|MemoryDitto2,10,MemoryDitto2,33|MemoryShiny,50,MemoryShiny,34
+0@0@1@Box PS,15,Box PS,1|Box Especial PS,30,Box Especial PS,2|PS Ball (10x),5,PS Ball (10x),3|PS Ball (100x),15,PS Ball (100x),4|PS Ball (500x),45,PS Ball (500x),5|Change Gender,5,Change Gender,6|Change Clan,?,ChangeClan,0|Bless,3,Bless,7|10 VIP Days,5,10 VIP Days,8|30 VIP Days,10,30 VIP Days,9|60 VIP Days,18,60 VIP Days,10|90 VIP Days,25,90 VIP Days,11|Starter Kit,10,Starter Kit,12|Addon Box,15,Addon Box,13|Bike Box,8,Bike Box,14|BoxBota1,35,BoxBota1,15|Box Guardian,50,Box Guardian,16|Box Guardian Shiny,120,Box Guardian Shiny,17|Shiny Charm (3d),15,Shiny Charm (3d),18|Shiny Charm (7d),30,Shiny Charm (7d),19|Shiny Charm (1m),60,Shiny Charm (1m),20|Boost Stone (2x),5,Boost Stone (2x),21|XP_Boost_20_(1h),5,XP_Boost_20_(1h),22|XP_Boost_40_(1h),8,XP_Boost_40_(1h),23|XP_Boost_20_(1w),25,XP_Boost_20_(1w),24|XP_Boost_40_(1w),35,XP_Boost_40_(1w),25|XP_Boost_30_(1m),70,XP_Boost_30_(1m),26|XP_Boost_40_(1m),105,XP_Boost_40_(1m),27|Incubadora Basic,5,Incubadora Basic,28|Incubadora Advanced,9,Incubadora Advanced,29|Ditto,50,Ditto,30|Shiny Ditto,250,Shiny Ditto,31|MemoryDitto,15,MemoryDitto,32|MemoryDitto2,10,MemoryDitto2,33|MemoryShiny,50,MemoryShiny,34
+0@0@1@Box PS,15,Box PS,1|Box Especial PS,30,Box Especial PS,2|PS Ball (10x),5,PS Ball (10x),3|PS Ball (100x),15,PS Ball (100x),4|PS Ball (500x),45,PS Ball (500x),5|Change Gender,5,Change Gender,6|Change Clan,?,ChangeClan,0|Bless,3,Bless,7|10 VIP Days,5,10 VIP Days,8|30 VIP Days,10,30 VIP Days,9|60 VIP Days,18,60 VIP Days,10|90 VIP Days,25,90 VIP Days,11|Starter Kit,10,Starter Kit,12|Addon Box,15,Addon Box,13|Bike Box,8,Bike Box,14|BoxBota1,35,BoxBota1,15|Box Guardian,50,Box Guardian,16|Box Guardian Shiny,120,Box Guardian Shiny,17|Shiny Charm (3d),15,Shiny Charm (3d),18|Shiny Charm (7d),30,Shiny Charm (7d),19|Shiny Charm (1m),60,Shiny Charm (1m),20|Boost Stone (2x),5,Boost Stone (2x),21|XP_Boost_20_(1h),5,XP_Boost_20_(1h),22|XP_Boost_40_(1h),8,XP_Boost_40_(1h),23|XP_Boost_20_(1w),25,XP_Boost_20_(1w),24|XP_Boost_40_(1w),35,XP_Boost_40_(1w),25|XP_Boost_30_(1m),70,XP_Boost_30_(1m),26|XP_Boost_40_(1m),105,XP_Boost_40_(1m),27|Incubadora Basic,5,Incubadora Basic,28|Incubadora Advanced,9,Incubadora Advanced,29|Ditto,50,Ditto,30|Shiny Ditto,250,Shiny Ditto,31|MemoryDitto,15,MemoryDitto,32|MemoryDitto2,10,MemoryDitto2,33|MemoryShiny,50,MemoryShiny,34
+0@0@1@Box PS,15,Box PS,1|Box Especial PS,30,Box Especial PS,2|PS Ball (10x),5,PS Ball (10x),3|PS Ball (100x),15,PS Ball (100x),4|PS Ball (500x),45,PS Ball (500x),5|Change Gender,5,Change Gender,6|Change Clan,?,ChangeClan,0|Bless,3,Bless,7|10 VIP Days,5,10 VIP Days,8|30 VIP Days,10,30 VIP Days,9|60 VIP Days,18,60 VIP Days,10|90 VIP Days,25,90 VIP Days,11|Starter Kit,10,Starter Kit,12|Addon Box,15,Addon Box,13|Bike Box,8,Bike Box,14|BoxBota1,35,BoxBota1,15|Box Guardian,50,Box Guardian,16|Box Guardian Shiny,120,Box Guardian Shiny,17|Shiny Charm (3d),15,Shiny Charm (3d),18|Shiny Charm (7d),30,Shiny Charm (7d),19|Shiny Charm (1m),60,Shiny Charm (1m),20|Boost Stone (2x),5,Boost Stone (2x),21|XP_Boost_20_(1h),5,XP_Boost_20_(1h),22|XP_Boost_40_(1h),8,XP_Boost_40_(1h),23|XP_Boost_20_(1w),25,XP_Boost_20_(1w),24|XP_Boost_40_(1w),35,XP_Boost_40_(1w),25|XP_Boost_30_(1m),70,XP_Boost_30_(1m),26|XP_Boost_40_(1m),105,XP_Boost_40_(1m),27|Incubadora Basic,5,Incubadora Basic,28|Incubadora Advanced,9,Incubadora Advanced,29|Ditto,50,Ditto,30|Shiny Ditto,250,Shiny Ditto,31|MemoryDitto,15,MemoryDitto,32|MemoryDitto2,10,MemoryDitto2,33|MemoryShiny,50,MemoryShiny,34
+0@0@1@Box PS,15,Box PS,1|Box Especial PS,30,Box Especial PS,2|PS Ball (10x),5,PS Ball (10x),3|PS Ball (100x),15,PS Ball (100x),4|PS Ball (500x),45,PS Ball (500x),5|Change Gender,5,Change Gender,6|Change Clan,?,ChangeClan,0|Bless,3,Bless,7|10 VIP Days,5,10 VIP Days,8|30 VIP Days,10,30 VIP Days,9|60 VIP Days,18,60 VIP Days,10|90 VIP Days,25,90 VIP Days,11|Starter Kit,10,Starter Kit,12|Addon Box,15,Addon Box,13|Bike Box,8,Bike Box,14|BoxBota1,35,BoxBota1,15|Box Guardian,50,Box Guardian,16|Box Guardian Shiny,120,Box Guardian Shiny,17|Shiny Charm (3d),15,Shiny Charm (3d),18|Shiny Charm (7d),30,Shiny Charm (7d),19|Shiny Charm (1m),60,Shiny Charm (1m),20|Boost Stone (2x),5,Boost Stone (2x),21|XP_Boost_20_(1h),5,XP_Boost_20_(1h),22|XP_Boost_40_(1h),8,XP_Boost_40_(1h),23|XP_Boost_20_(1w),25,XP_Boost_20_(1w),24|XP_Boost_40_(1w),35,XP_Boost_40_(1w),25|XP_Boost_30_(1m),70,XP_Boost_30_(1m),26|XP_Boost_40_(1m),105,XP_Boost_40_(1m),27|Incubadora Basic,5,Incubadora Basic,28|Incubadora Advanced,9,Incubadora Advanced,29|Ditto,50,Ditto,30|Shiny Ditto,250,Shiny Ditto,31|MemoryDitto,15,MemoryDitto,32|MemoryDitto2,10,MemoryDitto2,33|MemoryShiny,50,MemoryShiny,34
+2
+0@0@2@Slash,10,1441,1,1|Vinganca,10,1443,3,3|House,10,1444,4,4|Veteran Trainer,15,1465,5,5|Assassin,15,1470,8,8|Duelist,10,1671,9,9|Rabbitt,10,1680,12,12|Iron Man,20,1675,13,13|Gengar Closplay,20,1701,14,14|Venusaur Closplay,20,1700,15,15|Mewtow Closplay,20,1707,16,16|Blastoise Closplay,20,1699,17,17|Charizard Closplay,20,1694,18,18|Knight,20,2248,19,19|Supreme Trainer,35,295,22,22|Mestre Treinador,30,281,24,24|Youtuber,25,323,26,26|Radioativa,25,324,28,28|Ice Man,25,325,30,30|Eletric Man,25,326,32,32#PlayBoy,10,1442,2,2|Veteran Trainer,15,1466,6,6|Assassin,15,1469,7,7|Duelist,10,1672,10,10|Rabbitt,10,1679,11,11|Knight,20,2249,20,20|Supreme Trainer,35,294,21,21|Mestra Treinadora,30,282,23,23|Youtuber,25,322,25,25|Radioativa,25,324,27,27|Ice Girl,25,325,29,29|Eletric Girl,25,326,31,31
+4
+0@0@4@Squirtle Squad,15,Squirtle Squad,1,Addon do Squirtle.|Kimono do Mestre Splinter,15,Kimono do Mestre Splinter,2,Addon do Raticate.|Kimono DBZ,15,Kimono DBZ,3,Addon do Sandslash.|Fantasia do Freddy Krueger,15,Fantasia do Freddy Krueger,4,Addon do Meowth.|Roupa de Indiana Jones,15,Roupa de Indiana Jones,5,Addon do Alakazan.
+ERROR: protected lua call failed: /modules/game_zshop/ZShop.lua:308: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_zshop/ZShop.lua:308: in function 'reload'
+	/modules/game_zshop/ZShop.lua:66: in function 'callback'
+	/modules/gamelib/protocolgame.lua:20: in function </modules/gamelib/protocolgame.lua:17>
+2
+0@0@2@Slash,10,1441,1,1|Vinganca,10,1443,3,3|House,10,1444,4,4|Veteran Trainer,15,1465,5,5|Assassin,15,1470,8,8|Duelist,10,1671,9,9|Rabbitt,10,1680,12,12|Iron Man,20,1675,13,13|Gengar Closplay,20,1701,14,14|Venusaur Closplay,20,1700,15,15|Mewtow Closplay,20,1707,16,16|Blastoise Closplay,20,1699,17,17|Charizard Closplay,20,1694,18,18|Knight,20,2248,19,19|Supreme Trainer,35,295,22,22|Mestre Treinador,30,281,24,24|Youtuber,25,323,26,26|Radioativa,25,324,28,28|Ice Man,25,325,30,30|Eletric Man,25,326,32,32#PlayBoy,10,1442,2,2|Veteran Trainer,15,1466,6,6|Assassin,15,1469,7,7|Duelist,10,1672,10,10|Rabbitt,10,1679,11,11|Knight,20,2249,20,20|Supreme Trainer,35,294,21,21|Mestra Treinadora,30,282,23,23|Youtuber,25,322,25,25|Radioativa,25,324,27,27|Ice Girl,25,325,29,29|Eletric Girl,25,326,31,31
+1
+0@0@1@Box PS,15,Box PS,1|Box Especial PS,30,Box Especial PS,2|PS Ball (10x),5,PS Ball (10x),3|PS Ball (100x),15,PS Ball (100x),4|PS Ball (500x),45,PS Ball (500x),5|Change Gender,5,Change Gender,6|Change Clan,?,ChangeClan,0|Bless,3,Bless,7|10 VIP Days,5,10 VIP Days,8|30 VIP Days,10,30 VIP Days,9|60 VIP Days,18,60 VIP Days,10|90 VIP Days,25,90 VIP Days,11|Starter Kit,10,Starter Kit,12|Addon Box,15,Addon Box,13|Bike Box,8,Bike Box,14|BoxBota1,35,BoxBota1,15|Box Guardian,50,Box Guardian,16|Box Guardian Shiny,120,Box Guardian Shiny,17|Shiny Charm (3d),15,Shiny Charm (3d),18|Shiny Charm (7d),30,Shiny Charm (7d),19|Shiny Charm (1m),60,Shiny Charm (1m),20|Boost Stone (2x),5,Boost Stone (2x),21|XP_Boost_20_(1h),5,XP_Boost_20_(1h),22|XP_Boost_40_(1h),8,XP_Boost_40_(1h),23|XP_Boost_20_(1w),25,XP_Boost_20_(1w),24|XP_Boost_40_(1w),35,XP_Boost_40_(1w),25|XP_Boost_30_(1m),70,XP_Boost_30_(1m),26|XP_Boost_40_(1m),105,XP_Boost_40_(1m),27|Incubadora Basic,5,Incubadora Basic,28|Incubadora Advanced,9,Incubadora Advanced,29|Ditto,50,Ditto,30|Shiny Ditto,250,Shiny Ditto,31|MemoryDitto,15,MemoryDitto,32|MemoryDitto2,10,MemoryDitto2,33|MemoryShiny,50,MemoryShiny,34
+2
+0@0@2@Slash,10,1441,1,1|Vinganca,10,1443,3,3|House,10,1444,4,4|Veteran Trainer,15,1465,5,5|Assassin,15,1470,8,8|Duelist,10,1671,9,9|Rabbitt,10,1680,12,12|Iron Man,20,1675,13,13|Gengar Closplay,20,1701,14,14|Venusaur Closplay,20,1700,15,15|Mewtow Closplay,20,1707,16,16|Blastoise Closplay,20,1699,17,17|Charizard Closplay,20,1694,18,18|Knight,20,2248,19,19|Supreme Trainer,35,295,22,22|Mestre Treinador,30,281,24,24|Youtuber,25,323,26,26|Radioativa,25,324,28,28|Ice Man,25,325,30,30|Eletric Man,25,326,32,32#PlayBoy,10,1442,2,2|Veteran Trainer,15,1466,6,6|Assassin,15,1469,7,7|Duelist,10,1672,10,10|Rabbitt,10,1679,11,11|Knight,20,2249,20,20|Supreme Trainer,35,294,21,21|Mestra Treinadora,30,282,23,23|Youtuber,25,322,25,25|Radioativa,25,324,27,27|Ice Girl,25,325,29,29|Eletric Girl,25,326,31,31
+4
+0@0@4@Squirtle Squad,15,Squirtle Squad,1,Addon do Squirtle.|Kimono do Mestre Splinter,15,Kimono do Mestre Splinter,2,Addon do Raticate.|Kimono DBZ,15,Kimono DBZ,3,Addon do Sandslash.|Fantasia do Freddy Krueger,15,Fantasia do Freddy Krueger,4,Addon do Meowth.|Roupa de Indiana Jones,15,Roupa de Indiana Jones,5,Addon do Alakazan.
+ERROR: protected lua call failed: /modules/game_zshop/ZShop.lua:308: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_zshop/ZShop.lua:308: in function 'reload'
+	/modules/game_zshop/ZShop.lua:66: in function 'callback'
+	/modules/gamelib/protocolgame.lua:20: in function </modules/gamelib/protocolgame.lua:17>
+ERROR: Unable to load texture '/images/game/slots/head': unable to open file '/images/game/slots/head.png': not found
+ERROR: Unable to load texture '/images/game/slots/neck': unable to open file '/images/game/slots/neck.png': not found
+ERROR: Unable to load texture '/images/game/slots/back': unable to open file '/images/game/slots/back.png': not found
+ERROR: Unable to load texture '/images/game/slots/body': unable to open file '/images/game/slots/body.png': not found
+ERROR: Unable to load texture '/images/game/slots/right-hand': unable to open file '/images/game/slots/right-hand.png': not found
+ERROR: Unable to load texture '/images/game/slots/legs': unable to open file '/images/game/slots/legs.png': not found
+ERROR: unable to retrieve style '': not a defined style
+stack traceback:
+	[C]: in function 'setStyle'
+	/modules/game_inventory/inventory.lua:287: in function 'onInventoryChange'
+	/modules/game_inventory/inventory.lua:219: in function </modules/game_inventory/inventory.lua:215>
+at:
+	[C++]: ?setStyle@UIWidget@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+RC Sounds: New sound area detected:
+  Position: {x=3023, y=1822, z=6}
+  Music: music/cidade pallet.ogg
+Exiting application..
+ERROR: Lua error: /modules/rc_sound/rcsound.lua:238: attempt to index global 'soundButton' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:238: in function 'terminate'
+	/modules/rc_sound/rcsound.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'rc_sound': LUA ERROR:
+/modules/rc_sound/rcsound.lua:238: attempt to index global 'soundButton' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:238: in function 'terminate'
+	/modules/rc_sound/rcsound.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Lua error: /modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/game_easybot/easybot.otmod:9:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'bot_simple': LUA ERROR:
+/modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/game_easybot/easybot.otmod:9:[@onUnload]:1: in main chunk
+ERROR: Lua error: /modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/client_textfind/extended.otmod:17:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'Pokemon Info': LUA ERROR:
+/modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/client_textfind/extended.otmod:17:[@onUnload]:1: in main chunk
+ERROR: Lua error: /modules/gamelib/protocolgame.lua:81: Opcode is not registered.
+stack traceback:
+	[C]: at 0x011f6220
+	[C]: in function 'error'
+	/modules/gamelib/protocolgame.lua:81: in function 'unregisterExtendedOpcode'
+	/modules/game_dpanel/dpanel.lua:9: in function 'terminate'
+	/modules/game_dpanel/dpanel.otmod:9:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'game_dpanel': LUA ERROR:
+/modules/gamelib/protocolgame.lua:81: Opcode is not registered.
+stack traceback:
+	[C]: at 0x011f6220
+	[C]: in function 'error'
+	/modules/gamelib/protocolgame.lua:81: in function 'unregisterExtendedOpcode'
+	/modules/game_dpanel/dpanel.lua:9: in function 'terminate'
+	/modules/game_dpanel/dpanel.otmod:9:[@onUnload]:1: in main chunk
+ERROR: Lua error: /modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/game_pokemon/pokemon.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'game_pokemon': LUA ERROR:
+/modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/game_pokemon/pokemon.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Lua error: /modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/game_npcdialog/npcdialog.otmod:9:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'game_npcdialog': LUA ERROR:
+/modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/game_npcdialog/npcdialog.otmod:9:[@onUnload]:1: in main chunk
+ERROR: Lua error: /modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/game_walking/walking.otmod:9:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'game_walking': LUA ERROR:
+/modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/game_walking/walking.otmod:9:[@onUnload]:1: in main chunk
+WARNING: attempt to destroy widget 'autoLootButton' two times
+WARNING: attempt to destroy widget 'charactersWindow' two times
+WARNING: attempt to destroy widget 'charactersWindow' two times
+ERROR: Lua error: /modules/corelib/ui/effects.lua:39: attempt to index local 'widget' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/corelib/ui/effects.lua:39: in function 'cancelFade'
+	/modules/client_background/background.lua:52: in function 'terminate'
+	/modules/client_background/background.otmod:9:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'client_background': LUA ERROR:
+/modules/corelib/ui/effects.lua:39: attempt to index local 'widget' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/corelib/ui/effects.lua:39: in function 'cancelFade'
+	/modules/client_background/background.lua:52: in function 'terminate'
+	/modules/client_background/background.otmod:9:[@onUnload]:1: in main chunk
+WARNING: widget 'widget1181' was not explicitly destroyed
+GPU ANGLE (AMD Radeon RX 580 2048SP Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'F:/Github/PShiny/PShiny/'
+== application started at Jul 24 2024 01:04:47
+Pokemon Shiny 3.2 rev 0 (dev) made by otclient.net built on Jul 21 2024 for arch x86
+ERROR: Layour retro doesn't exist, using default
+ERROR: Unable to discover module from file '/modules/client/rcsound.otmod': OTML error in '/modules/client/rcsound.otmod' at line 2: must indent every 2 spaces
+ERROR: Failed to import UI styles from '/styles/40-console2.otui': OTML error in '/data/styles/40-console2.otui' at line 60: must indent every 2 spaces
+ERROR: font 'verdana-11px-monochrome_cp1252' not found
+ERROR: protected lua call failed: /modules/game_console/console.lua:285: attempt to index field 'game_walking' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_console/console.lua:285: in function 'disableChat'
+	/modules/game_console/console.lua:224: in function 'toggleChat'
+	/data/styles/40-console.otui:80: [@onCheckChange]:2: in function </data/styles/40-console.otui:80: [@onCheckChange]:1>
+	[C]: in function 'disableChat'
+	/modules/game_console/console.lua:196: in function 'init'
+	/modules/game_console/console.otmod:8:[@onLoad]:1: in main chunk
+	[C]: in function 'ensureModuleLoaded'
+	/init.lua:71: in function 'loadModules'
+	/init.lua:88: in main chunk
+ERROR: font 'sans-16px-bold' not found
+ERROR: Unable to load texture '/images/game/slots/neck': unable to open file '/images/game/slots/neck.png': not found
+ERROR: Unable to load texture '/images/game/slots/back': unable to open file '/images/game/slots/back.png': not found
+ERROR: Unable to load texture '/images/game/slots/right-hand': unable to open file '/images/game/slots/right-hand.png': not found
+ERROR: Unable to load texture '/images/game/slots/finger': unable to open file '/images/game/slots/finger.png': not found
+ERROR: Unable to load texture '/images/game/slots/head': unable to open file '/images/game/slots/head.png': not found
+ERROR: Unable to load texture '/images/game/slots/left-hand': unable to open file '/images/game/slots/left-hand.png': not found
+ERROR: Unable to load texture '/images/game/slots/feet': unable to open file '/images/game/slots/feet.png': not found
+ERROR: Unable to load texture '/images/game/slots/legs': unable to open file '/images/game/slots/legs.png': not found
+ERROR: Unable to load texture '/images/game/slots/body': unable to open file '/images/game/slots/body.png': not found
+ERROR: Unable to load texture '/images/game/slots/back': unable to open file '/images/game/slots/back.png': not found
+ERROR: Unable to load texture '/images/game/slots/ammo': unable to open file '/images/game/slots/ammo.png': not found
+ERROR: Unable to load texture '/images/game/slots/purse': unable to open file '/images/game/slots/purse.png': not found
+ERROR: Unable to load texture '/images/game/slots/head': unable to open file '/images/game/slots/head.png': not found
+ERROR: Unable to load texture '/images/game/slots/neck': unable to open file '/images/game/slots/neck.png': not found
+ERROR: Unable to load texture '/images/game/slots/back': unable to open file '/images/game/slots/back.png': not found
+ERROR: Unable to load texture '/images/game/slots/body': unable to open file '/images/game/slots/body.png': not found
+ERROR: Unable to load texture '/images/game/slots/right-hand': unable to open file '/images/game/slots/right-hand.png': not found
+ERROR: Unable to load texture '/images/game/slots/left-hand': unable to open file '/images/game/slots/left-hand.png': not found
+ERROR: Unable to load texture '/images/game/slots/legs': unable to open file '/images/game/slots/legs.png': not found
+ERROR: unable to retrieve style '': not a defined style
+stack traceback:
+	[C]: in function 'setStyle'
+	/modules/game_inventory/inventory.lua:287: in function 'onInventoryChange'
+	/modules/game_inventory/inventory.lua:221: in function 'refresh'
+	/modules/game_inventory/inventory.lua:145: in function 'init'
+	/modules/game_inventory/inventory.otmod:8:[@onLoad]:1: in main chunk
+	[C]: in function 'ensureModuleLoaded'
+	/init.lua:71: in function 'loadModules'
+	/init.lua:88: in main chunk
+at:
+	[C++]: ?setStyle@UIWidget@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ERROR: Unable to load texture '/images/game/slots/finger': unable to open file '/images/game/slots/finger.png': not found
+ERROR: Unable to load texture '/images/game/slots/ammo': unable to open file '/images/game/slots/ammo.png': not found
+ERROR: failed to apply style to widget 'widget796': LUA ERROR: /modules/game_minimap/minimap.otui:155: [!tooltip]:1: invalid escape sequence near ''Segure o botão esquerdo do mouse para navegar'
+stack traceback:
+	[builtin#146]: at 0x011eb950
+	[C]: in function 'loadUI'
+	/modules/game_minimap/minimap.lua:11: in function 'init'
+	/modules/game_minimap/minimap.otmod:8:[@onLoad]:1: in main chunk
+	[C]: in function 'ensureModuleLoaded'
+	/init.lua:71: in function 'loadModules'
+	/init.lua:88: in main chunk
+stack traceback:
+	[C]: in function 'loadUI'
+	/modules/game_minimap/minimap.lua:11: in function 'init'
+	/modules/game_minimap/minimap.otmod:8:[@onLoad]:1: in main chunk
+	[C]: in function 'ensureModuleLoaded'
+	/init.lua:71: in function 'loadModules'
+	/init.lua:88: in main chunk
+at:
+	[C++]: ?applyStyle@UIWidget@@QAEXABV?$shared_object_ptr@VOTMLNode@@@stdext@@@Z
+ERROR: Unable to find module 'game_bank' required by 'game_interface'
+ERROR: Unable to load texture '/images/topbuttons/cooldowns': unable to open file '/images/topbuttons/cooldowns.png': not found
+ERROR: Unable to load texture '/images/topbuttons/cooldowns': unable to open file '/images/topbuttons/cooldowns.png': not found
+ERROR: Unable to find module 'game_bank' required by 'game_interface'
+ERROR: Unable to find module 'game_easybot' required by 'game_interface'
+ERROR: protected lua call failed: /modules/game_pokedex/pokedex.lua:382: attempt to index global 'pokemonSearch' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokedex/pokedex.lua:382: in function 'searchPokemon'
+	/data/styles/30-pokedex.otui:59: [@onTextChange]:2: in function </data/styles/30-pokedex.otui:59: [@onTextChange]:1>
+	[C]: in function 'displayUI'
+	/modules/game_pokedex/pokedex.lua:13: in function 'init'
+	/modules/game_pokedex/pokedex.otmod:8:[@onLoad]:1: in main chunk
+	[C]: in function 'ensureModuleLoaded'
+	/init.lua:71: in function 'loadModules'
+	/init.lua:88: in main chunk
+ERROR: Unable to find module 'game_bosshealth' required by 'game_interface'
+ERROR: Unable to load texture '/images/questlog/mostrarButton': unable to open file '/images/questlog/mostrarButton.png': not found
+ERROR: Unable to load texture '/images/questlog/miniwindow': unable to open file '/images/questlog/miniwindow.png': not found
+ERROR: Unable to find module 'game_city' required by 'game_interface'
+ERROR: font '123' not found
+ERROR: font '123' not found
+ERROR: font '123' not found
+ERROR: font '123' not found
+ERROR: font '123' not found
+ERROR: font '123' not found
+ERROR: /modules/rc_sound/rcsound.lua:207: attempt to index global 'soundButton' (a nil value)
+ERROR: lua function callback failed: /modules/corelib/util.lua:56: attempt to index local 'object' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/corelib/util.lua:56: in function 'connect'
+	/modules/corelib/ui/uiscrollarea.lua:76: in function 'setVerticalScrollBar'
+	/modules/corelib/ui/uiscrollarea.lua:19: in function </modules/corelib/ui/uiscrollarea.lua:16>
+ERROR: lua function callback failed: /modules/corelib/util.lua:56: attempt to index local 'object' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/corelib/util.lua:56: in function 'connect'
+	/modules/corelib/ui/uiscrollarea.lua:76: in function 'setVerticalScrollBar'
+	/modules/corelib/ui/uiscrollarea.lua:19: in function </modules/corelib/ui/uiscrollarea.lua:16>
+ERROR: lua function callback failed: /modules/corelib/util.lua:56: attempt to index local 'object' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/corelib/util.lua:56: in function 'connect'
+	/modules/corelib/ui/uiscrollarea.lua:76: in function 'setVerticalScrollBar'
+	/modules/corelib/ui/uiscrollarea.lua:19: in function </modules/corelib/ui/uiscrollarea.lua:16>
+Exiting application..
+ERROR: Lua error: /modules/rc_sound/rcsound.lua:238: attempt to index global 'soundButton' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:238: in function 'terminate'
+	/modules/rc_sound/rcsound.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'rc_sound': LUA ERROR:
+/modules/rc_sound/rcsound.lua:238: attempt to index global 'soundButton' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:238: in function 'terminate'
+	/modules/rc_sound/rcsound.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Lua error: /modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/game_easybot/easybot.otmod:9:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'bot_simple': LUA ERROR:
+/modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/game_easybot/easybot.otmod:9:[@onUnload]:1: in main chunk
+ERROR: Lua error: /modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/client_textfind/extended.otmod:17:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'Pokemon Info': LUA ERROR:
+/modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/client_textfind/extended.otmod:17:[@onUnload]:1: in main chunk
+ERROR: Lua error: /modules/gamelib/protocolgame.lua:81: Opcode is not registered.
+stack traceback:
+	[C]: at 0x01086220
+	[C]: in function 'error'
+	/modules/gamelib/protocolgame.lua:81: in function 'unregisterExtendedOpcode'
+	/modules/game_dpanel/dpanel.lua:9: in function 'terminate'
+	/modules/game_dpanel/dpanel.otmod:9:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'game_dpanel': LUA ERROR:
+/modules/gamelib/protocolgame.lua:81: Opcode is not registered.
+stack traceback:
+	[C]: at 0x01086220
+	[C]: in function 'error'
+	/modules/gamelib/protocolgame.lua:81: in function 'unregisterExtendedOpcode'
+	/modules/game_dpanel/dpanel.lua:9: in function 'terminate'
+	/modules/game_dpanel/dpanel.otmod:9:[@onUnload]:1: in main chunk
+ERROR: Lua error: /modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/game_pokemon/pokemon.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'game_pokemon': LUA ERROR:
+/modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/game_pokemon/pokemon.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Lua error: /modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/game_npcdialog/npcdialog.otmod:9:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'game_npcdialog': LUA ERROR:
+/modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/game_npcdialog/npcdialog.otmod:9:[@onUnload]:1: in main chunk
+ERROR: Lua error: /modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/game_walking/walking.otmod:9:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'game_walking': LUA ERROR:
+/modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/game_walking/walking.otmod:9:[@onUnload]:1: in main chunk
+WARNING: attempt to destroy widget 'autoLootButton' two times
+ERROR: Lua error: /modules/client_entergame/characterlist.lua:243: attempt to index upvalue 'charactersWindow' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/client_entergame/characterlist.lua:243: in function 'terminate'
+	/modules/client_entergame/entergame.otmod:8:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'client_entergame': LUA ERROR:
+/modules/client_entergame/characterlist.lua:243: attempt to index upvalue 'charactersWindow' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/client_entergame/characterlist.lua:243: in function 'terminate'
+	/modules/client_entergame/entergame.otmod:8:[@onUnload]:1: in main chunk
+ERROR: Lua error: /modules/corelib/ui/effects.lua:39: attempt to index local 'widget' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/corelib/ui/effects.lua:39: in function 'cancelFade'
+	/modules/client_background/background.lua:52: in function 'terminate'
+	/modules/client_background/background.otmod:9:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'client_background': LUA ERROR:
+/modules/corelib/ui/effects.lua:39: attempt to index local 'widget' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/corelib/ui/effects.lua:39: in function 'cancelFade'
+	/modules/client_background/background.lua:52: in function 'terminate'
+	/modules/client_background/background.otmod:9:[@onUnload]:1: in main chunk
+WARNING: widget 'widget1181' was not explicitly destroyed
+GPU ANGLE (AMD Radeon RX 580 2048SP Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'F:/Github/PShiny/PShiny/'
+== application started at Jul 24 2024 01:05:05
+Pokemon Shiny 3.2 rev 0 (dev) made by otclient.net built on Jul 21 2024 for arch x86
+ERROR: Layour retro doesn't exist, using default
+ERROR: Unable to discover module from file '/modules/client/rcsound.otmod': OTML error in '/modules/client/rcsound.otmod' at line 2: must indent every 2 spaces
+ERROR: Failed to import UI styles from '/styles/40-console2.otui': OTML error in '/data/styles/40-console2.otui' at line 60: must indent every 2 spaces
+ERROR: font 'verdana-11px-monochrome_cp1252' not found
+ERROR: protected lua call failed: /modules/game_console/console.lua:285: attempt to index field 'game_walking' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_console/console.lua:285: in function 'disableChat'
+	/modules/game_console/console.lua:224: in function 'toggleChat'
+	/data/styles/40-console.otui:80: [@onCheckChange]:2: in function </data/styles/40-console.otui:80: [@onCheckChange]:1>
+	[C]: in function 'disableChat'
+	/modules/game_console/console.lua:196: in function 'init'
+	/modules/game_console/console.otmod:8:[@onLoad]:1: in main chunk
+	[C]: in function 'ensureModuleLoaded'
+	/init.lua:71: in function 'loadModules'
+	/init.lua:88: in main chunk
+ERROR: font 'sans-16px-bold' not found
+ERROR: Unable to load texture '/images/game/slots/neck': unable to open file '/images/game/slots/neck.png': not found
+ERROR: Unable to load texture '/images/game/slots/back': unable to open file '/images/game/slots/back.png': not found
+ERROR: Unable to load texture '/images/game/slots/right-hand': unable to open file '/images/game/slots/right-hand.png': not found
+ERROR: Unable to load texture '/images/game/slots/finger': unable to open file '/images/game/slots/finger.png': not found
+ERROR: Unable to load texture '/images/game/slots/head': unable to open file '/images/game/slots/head.png': not found
+ERROR: Unable to load texture '/images/game/slots/left-hand': unable to open file '/images/game/slots/left-hand.png': not found
+ERROR: Unable to load texture '/images/game/slots/feet': unable to open file '/images/game/slots/feet.png': not found
+ERROR: Unable to load texture '/images/game/slots/legs': unable to open file '/images/game/slots/legs.png': not found
+ERROR: Unable to load texture '/images/game/slots/body': unable to open file '/images/game/slots/body.png': not found
+ERROR: Unable to load texture '/images/game/slots/back': unable to open file '/images/game/slots/back.png': not found
+ERROR: Unable to load texture '/images/game/slots/ammo': unable to open file '/images/game/slots/ammo.png': not found
+ERROR: Unable to load texture '/images/game/slots/purse': unable to open file '/images/game/slots/purse.png': not found
+ERROR: Unable to load texture '/images/game/slots/head': unable to open file '/images/game/slots/head.png': not found
+ERROR: Unable to load texture '/images/game/slots/neck': unable to open file '/images/game/slots/neck.png': not found
+ERROR: Unable to load texture '/images/game/slots/back': unable to open file '/images/game/slots/back.png': not found
+ERROR: Unable to load texture '/images/game/slots/body': unable to open file '/images/game/slots/body.png': not found
+ERROR: Unable to load texture '/images/game/slots/right-hand': unable to open file '/images/game/slots/right-hand.png': not found
+ERROR: Unable to load texture '/images/game/slots/left-hand': unable to open file '/images/game/slots/left-hand.png': not found
+ERROR: Unable to load texture '/images/game/slots/legs': unable to open file '/images/game/slots/legs.png': not found
+ERROR: unable to retrieve style '': not a defined style
+stack traceback:
+	[C]: in function 'setStyle'
+	/modules/game_inventory/inventory.lua:287: in function 'onInventoryChange'
+	/modules/game_inventory/inventory.lua:221: in function 'refresh'
+	/modules/game_inventory/inventory.lua:145: in function 'init'
+	/modules/game_inventory/inventory.otmod:8:[@onLoad]:1: in main chunk
+	[C]: in function 'ensureModuleLoaded'
+	/init.lua:71: in function 'loadModules'
+	/init.lua:88: in main chunk
+at:
+	[C++]: ?setStyle@UIWidget@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ERROR: Unable to load texture '/images/game/slots/finger': unable to open file '/images/game/slots/finger.png': not found
+ERROR: Unable to load texture '/images/game/slots/ammo': unable to open file '/images/game/slots/ammo.png': not found
+ERROR: failed to apply style to widget 'widget796': LUA ERROR: /modules/game_minimap/minimap.otui:155: [!tooltip]:1: invalid escape sequence near ''Segure o botão esquerdo do mouse para navegar'
+stack traceback:
+	[builtin#146]: at 0x011eb950
+	[C]: in function 'loadUI'
+	/modules/game_minimap/minimap.lua:11: in function 'init'
+	/modules/game_minimap/minimap.otmod:8:[@onLoad]:1: in main chunk
+	[C]: in function 'ensureModuleLoaded'
+	/init.lua:71: in function 'loadModules'
+	/init.lua:88: in main chunk
+stack traceback:
+	[C]: in function 'loadUI'
+	/modules/game_minimap/minimap.lua:11: in function 'init'
+	/modules/game_minimap/minimap.otmod:8:[@onLoad]:1: in main chunk
+	[C]: in function 'ensureModuleLoaded'
+	/init.lua:71: in function 'loadModules'
+	/init.lua:88: in main chunk
+at:
+	[C++]: ?applyStyle@UIWidget@@QAEXABV?$shared_object_ptr@VOTMLNode@@@stdext@@@Z
+ERROR: Unable to find module 'game_bank' required by 'game_interface'
+ERROR: Unable to load texture '/images/topbuttons/cooldowns': unable to open file '/images/topbuttons/cooldowns.png': not found
+ERROR: Unable to load texture '/images/topbuttons/cooldowns': unable to open file '/images/topbuttons/cooldowns.png': not found
+ERROR: Unable to find module 'game_bank' required by 'game_interface'
+ERROR: Unable to find module 'game_easybot' required by 'game_interface'
+ERROR: protected lua call failed: /modules/game_pokedex/pokedex.lua:382: attempt to index global 'pokemonSearch' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokedex/pokedex.lua:382: in function 'searchPokemon'
+	/data/styles/30-pokedex.otui:59: [@onTextChange]:2: in function </data/styles/30-pokedex.otui:59: [@onTextChange]:1>
+	[C]: in function 'displayUI'
+	/modules/game_pokedex/pokedex.lua:13: in function 'init'
+	/modules/game_pokedex/pokedex.otmod:8:[@onLoad]:1: in main chunk
+	[C]: in function 'ensureModuleLoaded'
+	/init.lua:71: in function 'loadModules'
+	/init.lua:88: in main chunk
+ERROR: Unable to find module 'game_bosshealth' required by 'game_interface'
+ERROR: Unable to load texture '/images/questlog/mostrarButton': unable to open file '/images/questlog/mostrarButton.png': not found
+ERROR: Unable to load texture '/images/questlog/miniwindow': unable to open file '/images/questlog/miniwindow.png': not found
+ERROR: Unable to find module 'game_city' required by 'game_interface'
+ERROR: font '123' not found
+ERROR: font '123' not found
+ERROR: font '123' not found
+ERROR: font '123' not found
+ERROR: font '123' not found
+ERROR: font '123' not found
+ERROR: /modules/rc_sound/rcsound.lua:207: attempt to index global 'soundButton' (a nil value)
+ERROR: lua function callback failed: /modules/corelib/util.lua:56: attempt to index local 'object' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/corelib/util.lua:56: in function 'connect'
+	/modules/corelib/ui/uiscrollarea.lua:76: in function 'setVerticalScrollBar'
+	/modules/corelib/ui/uiscrollarea.lua:19: in function </modules/corelib/ui/uiscrollarea.lua:16>
+ERROR: lua function callback failed: /modules/corelib/util.lua:56: attempt to index local 'object' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/corelib/util.lua:56: in function 'connect'
+	/modules/corelib/ui/uiscrollarea.lua:76: in function 'setVerticalScrollBar'
+	/modules/corelib/ui/uiscrollarea.lua:19: in function </modules/corelib/ui/uiscrollarea.lua:16>
+ERROR: lua function callback failed: /modules/corelib/util.lua:56: attempt to index local 'object' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/corelib/util.lua:56: in function 'connect'
+	/modules/corelib/ui/uiscrollarea.lua:76: in function 'setVerticalScrollBar'
+	/modules/corelib/ui/uiscrollarea.lua:19: in function </modules/corelib/ui/uiscrollarea.lua:16>
+Exiting application..
+ERROR: Lua error: /modules/rc_sound/rcsound.lua:238: attempt to index global 'soundButton' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:238: in function 'terminate'
+	/modules/rc_sound/rcsound.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'rc_sound': LUA ERROR:
+/modules/rc_sound/rcsound.lua:238: attempt to index global 'soundButton' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:238: in function 'terminate'
+	/modules/rc_sound/rcsound.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Lua error: /modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/game_easybot/easybot.otmod:9:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'bot_simple': LUA ERROR:
+/modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/game_easybot/easybot.otmod:9:[@onUnload]:1: in main chunk
+ERROR: Lua error: /modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/client_textfind/extended.otmod:17:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'Pokemon Info': LUA ERROR:
+/modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/client_textfind/extended.otmod:17:[@onUnload]:1: in main chunk
+ERROR: Lua error: /modules/gamelib/protocolgame.lua:81: Opcode is not registered.
+stack traceback:
+	[C]: at 0x01086220
+	[C]: in function 'error'
+	/modules/gamelib/protocolgame.lua:81: in function 'unregisterExtendedOpcode'
+	/modules/game_dpanel/dpanel.lua:9: in function 'terminate'
+	/modules/game_dpanel/dpanel.otmod:9:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'game_dpanel': LUA ERROR:
+/modules/gamelib/protocolgame.lua:81: Opcode is not registered.
+stack traceback:
+	[C]: at 0x01086220
+	[C]: in function 'error'
+	/modules/gamelib/protocolgame.lua:81: in function 'unregisterExtendedOpcode'
+	/modules/game_dpanel/dpanel.lua:9: in function 'terminate'
+	/modules/game_dpanel/dpanel.otmod:9:[@onUnload]:1: in main chunk
+ERROR: Lua error: /modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/game_pokemon/pokemon.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'game_pokemon': LUA ERROR:
+/modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/game_pokemon/pokemon.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Lua error: /modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/game_npcdialog/npcdialog.otmod:9:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'game_npcdialog': LUA ERROR:
+/modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/game_npcdialog/npcdialog.otmod:9:[@onUnload]:1: in main chunk
+ERROR: Lua error: /modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/game_walking/walking.otmod:9:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'game_walking': LUA ERROR:
+/modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/game_walking/walking.otmod:9:[@onUnload]:1: in main chunk
+WARNING: attempt to destroy widget 'autoLootButton' two times
+ERROR: Lua error: /modules/client_entergame/characterlist.lua:243: attempt to index upvalue 'charactersWindow' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/client_entergame/characterlist.lua:243: in function 'terminate'
+	/modules/client_entergame/entergame.otmod:8:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'client_entergame': LUA ERROR:
+/modules/client_entergame/characterlist.lua:243: attempt to index upvalue 'charactersWindow' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/client_entergame/characterlist.lua:243: in function 'terminate'
+	/modules/client_entergame/entergame.otmod:8:[@onUnload]:1: in main chunk
+ERROR: Lua error: /modules/corelib/ui/effects.lua:39: attempt to index local 'widget' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/corelib/ui/effects.lua:39: in function 'cancelFade'
+	/modules/client_background/background.lua:52: in function 'terminate'
+	/modules/client_background/background.otmod:9:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'client_background': LUA ERROR:
+/modules/corelib/ui/effects.lua:39: attempt to index local 'widget' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/corelib/ui/effects.lua:39: in function 'cancelFade'
+	/modules/client_background/background.lua:52: in function 'terminate'
+	/modules/client_background/background.otmod:9:[@onUnload]:1: in main chunk
+WARNING: widget 'widget1181' was not explicitly destroyed
+GPU ANGLE (AMD Radeon RX 580 2048SP Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'F:/Github/PShiny/PShiny/'
+== application started at Jul 24 2024 01:06:56
+Pokemon Shiny 3.2 rev 0 (dev) made by otclient.net built on Jul 21 2024 for arch x86
+ERROR: Layour retro doesn't exist, using default
+ERROR: Unable to discover module from file '/modules/client/rcsound.otmod': OTML error in '/modules/client/rcsound.otmod' at line 2: must indent every 2 spaces
+ERROR: Failed to import UI styles from '/styles/40-console2.otui': OTML error in '/data/styles/40-console2.otui' at line 60: must indent every 2 spaces
+ERROR: font 'verdana-11px-monochrome_cp1252' not found
+ERROR: protected lua call failed: /modules/game_console/console.lua:285: attempt to index field 'game_walking' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_console/console.lua:285: in function 'disableChat'
+	/modules/game_console/console.lua:224: in function 'toggleChat'
+	/data/styles/40-console.otui:80: [@onCheckChange]:2: in function </data/styles/40-console.otui:80: [@onCheckChange]:1>
+	[C]: in function 'disableChat'
+	/modules/game_console/console.lua:196: in function 'init'
+	/modules/game_console/console.otmod:8:[@onLoad]:1: in main chunk
+	[C]: in function 'ensureModuleLoaded'
+	/init.lua:71: in function 'loadModules'
+	/init.lua:88: in main chunk
+ERROR: font 'sans-16px-bold' not found
+ERROR: Unable to load texture '/images/game/slots/neck': unable to open file '/images/game/slots/neck.png': not found
+ERROR: Unable to load texture '/images/game/slots/back': unable to open file '/images/game/slots/back.png': not found
+ERROR: Unable to load texture '/images/game/slots/right-hand': unable to open file '/images/game/slots/right-hand.png': not found
+ERROR: Unable to load texture '/images/game/slots/finger': unable to open file '/images/game/slots/finger.png': not found
+ERROR: Unable to load texture '/images/game/slots/head': unable to open file '/images/game/slots/head.png': not found
+ERROR: Unable to load texture '/images/game/slots/left-hand': unable to open file '/images/game/slots/left-hand.png': not found
+ERROR: Unable to load texture '/images/game/slots/feet': unable to open file '/images/game/slots/feet.png': not found
+ERROR: Unable to load texture '/images/game/slots/legs': unable to open file '/images/game/slots/legs.png': not found
+ERROR: Unable to load texture '/images/game/slots/body': unable to open file '/images/game/slots/body.png': not found
+ERROR: Unable to load texture '/images/game/slots/back': unable to open file '/images/game/slots/back.png': not found
+ERROR: Unable to load texture '/images/game/slots/ammo': unable to open file '/images/game/slots/ammo.png': not found
+ERROR: Unable to load texture '/images/game/slots/purse': unable to open file '/images/game/slots/purse.png': not found
+ERROR: Unable to load texture '/images/game/slots/head': unable to open file '/images/game/slots/head.png': not found
+ERROR: Unable to load texture '/images/game/slots/neck': unable to open file '/images/game/slots/neck.png': not found
+ERROR: Unable to load texture '/images/game/slots/back': unable to open file '/images/game/slots/back.png': not found
+ERROR: Unable to load texture '/images/game/slots/body': unable to open file '/images/game/slots/body.png': not found
+ERROR: Unable to load texture '/images/game/slots/right-hand': unable to open file '/images/game/slots/right-hand.png': not found
+ERROR: Unable to load texture '/images/game/slots/left-hand': unable to open file '/images/game/slots/left-hand.png': not found
+ERROR: Unable to load texture '/images/game/slots/legs': unable to open file '/images/game/slots/legs.png': not found
+ERROR: unable to retrieve style '': not a defined style
+stack traceback:
+	[C]: in function 'setStyle'
+	/modules/game_inventory/inventory.lua:287: in function 'onInventoryChange'
+	/modules/game_inventory/inventory.lua:221: in function 'refresh'
+	/modules/game_inventory/inventory.lua:145: in function 'init'
+	/modules/game_inventory/inventory.otmod:8:[@onLoad]:1: in main chunk
+	[C]: in function 'ensureModuleLoaded'
+	/init.lua:71: in function 'loadModules'
+	/init.lua:88: in main chunk
+at:
+	[C++]: ?setStyle@UIWidget@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ERROR: Unable to load texture '/images/game/slots/finger': unable to open file '/images/game/slots/finger.png': not found
+ERROR: Unable to load texture '/images/game/slots/ammo': unable to open file '/images/game/slots/ammo.png': not found
+ERROR: failed to apply style to widget 'widget796': LUA ERROR: /modules/game_minimap/minimap.otui:155: [!tooltip]:1: invalid escape sequence near ''Segure o botão esquerdo do mouse para navegar'
+stack traceback:
+	[builtin#146]: at 0x011eb950
+	[C]: in function 'loadUI'
+	/modules/game_minimap/minimap.lua:11: in function 'init'
+	/modules/game_minimap/minimap.otmod:8:[@onLoad]:1: in main chunk
+	[C]: in function 'ensureModuleLoaded'
+	/init.lua:71: in function 'loadModules'
+	/init.lua:88: in main chunk
+stack traceback:
+	[C]: in function 'loadUI'
+	/modules/game_minimap/minimap.lua:11: in function 'init'
+	/modules/game_minimap/minimap.otmod:8:[@onLoad]:1: in main chunk
+	[C]: in function 'ensureModuleLoaded'
+	/init.lua:71: in function 'loadModules'
+	/init.lua:88: in main chunk
+at:
+	[C++]: ?applyStyle@UIWidget@@QAEXABV?$shared_object_ptr@VOTMLNode@@@stdext@@@Z
+ERROR: Unable to find module 'game_bank' required by 'game_interface'
+ERROR: Unable to load texture '/images/topbuttons/cooldowns': unable to open file '/images/topbuttons/cooldowns.png': not found
+ERROR: Unable to load texture '/images/topbuttons/cooldowns': unable to open file '/images/topbuttons/cooldowns.png': not found
+ERROR: Unable to find module 'game_bank' required by 'game_interface'
+ERROR: Unable to find module 'game_easybot' required by 'game_interface'
+ERROR: protected lua call failed: /modules/game_pokedex/pokedex.lua:382: attempt to index global 'pokemonSearch' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokedex/pokedex.lua:382: in function 'searchPokemon'
+	/data/styles/30-pokedex.otui:59: [@onTextChange]:2: in function </data/styles/30-pokedex.otui:59: [@onTextChange]:1>
+	[C]: in function 'displayUI'
+	/modules/game_pokedex/pokedex.lua:13: in function 'init'
+	/modules/game_pokedex/pokedex.otmod:8:[@onLoad]:1: in main chunk
+	[C]: in function 'ensureModuleLoaded'
+	/init.lua:71: in function 'loadModules'
+	/init.lua:88: in main chunk
+ERROR: Unable to find module 'game_bosshealth' required by 'game_interface'
+ERROR: Unable to load texture '/images/questlog/mostrarButton': unable to open file '/images/questlog/mostrarButton.png': not found
+ERROR: Unable to load texture '/images/questlog/miniwindow': unable to open file '/images/questlog/miniwindow.png': not found
+ERROR: Unable to find module 'game_city' required by 'game_interface'
+ERROR: font '123' not found
+ERROR: font '123' not found
+ERROR: font '123' not found
+ERROR: font '123' not found
+ERROR: font '123' not found
+ERROR: font '123' not found
+ERROR: /modules/rc_sound/rcsound.lua:207: attempt to index global 'soundButton' (a nil value)
+ERROR: lua function callback failed: /modules/corelib/util.lua:56: attempt to index local 'object' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/corelib/util.lua:56: in function 'connect'
+	/modules/corelib/ui/uiscrollarea.lua:76: in function 'setVerticalScrollBar'
+	/modules/corelib/ui/uiscrollarea.lua:19: in function </modules/corelib/ui/uiscrollarea.lua:16>
+ERROR: lua function callback failed: /modules/corelib/util.lua:56: attempt to index local 'object' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/corelib/util.lua:56: in function 'connect'
+	/modules/corelib/ui/uiscrollarea.lua:76: in function 'setVerticalScrollBar'
+	/modules/corelib/ui/uiscrollarea.lua:19: in function </modules/corelib/ui/uiscrollarea.lua:16>
+ERROR: lua function callback failed: /modules/corelib/util.lua:56: attempt to index local 'object' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/corelib/util.lua:56: in function 'connect'
+	/modules/corelib/ui/uiscrollarea.lua:76: in function 'setVerticalScrollBar'
+	/modules/corelib/ui/uiscrollarea.lua:19: in function </modules/corelib/ui/uiscrollarea.lua:16>
+ERROR: Unable to load texture '/images/game/slots/head': unable to open file '/images/game/slots/head.png': not found
+ERROR: Unable to load texture '/images/game/slots/neck': unable to open file '/images/game/slots/neck.png': not found
+ERROR: Unable to load texture '/images/game/slots/back': unable to open file '/images/game/slots/back.png': not found
+ERROR: Unable to load texture '/images/game/slots/body': unable to open file '/images/game/slots/body.png': not found
+ERROR: Unable to load texture '/images/game/slots/right-hand': unable to open file '/images/game/slots/right-hand.png': not found
+ERROR: Unable to load texture '/images/game/slots/legs': unable to open file '/images/game/slots/legs.png': not found
+ERROR: unable to retrieve style '': not a defined style
+stack traceback:
+	[C]: in function 'setStyle'
+	/modules/game_inventory/inventory.lua:287: in function 'onInventoryChange'
+	/modules/game_inventory/inventory.lua:219: in function </modules/game_inventory/inventory.lua:215>
+at:
+	[C++]: ?setStyle@UIWidget@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+RC Sounds: New sound area detected:
+  Position: {x=3036, y=1815, z=7}
+  Music: music/cidade pallet.ogg
+RC Sounds: New sound area detected:
+  Position: {x=3052, y=1834, z=6}
+  Music: music/oak.ogg
+RC Sounds: New sound area detected:
+  Position: {x=3052, y=1835, z=6}
+  Music: music/cidade pallet.ogg
+RC Sounds: New sound area detected:
+  Position: {x=3002, y=1803, z=7}
+  Music: music/wind_low.ogg
+RC Sounds: New sound area detected:
+  Position: {x=3001, y=1804, z=7}
+  Music: music/cidade pallet.ogg
+RC Sounds: New sound area detected:
+  Left music area.
+RC Sounds: New sound area detected:
+  Position: {x=3034, y=1800, z=7}
+  Music: music/forest_01.ogg
+ERROR: Unable to load texture 'graph/background_hover_use.png': unable to open file '/modules/game_pokeBar/graph/background_hover_use.png': not found
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+ERROR: Unable to load texture 'graph/background_hover_use.png': unable to open file '/modules/game_pokeBar/graph/background_hover_use.png': not found
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+RC Sounds: New sound area detected:
+  Position: {x=3019, y=1742, z=7}
+  Music: music/viridian.ogg
+RC Sounds: New sound area detected:
+  Position: {x=2977, y=1712, z=7}
+  Music: music/PkCentro.ogg
+ERROR: Unable to load texture 'graph/background_hover_use.png': unable to open file '/modules/game_pokeBar/graph/background_hover_use.png': not found
+RC Sounds: New sound area detected:
+  Position: {x=2977, y=1714, z=7}
+  Music: music/viridian.ogg
+ERROR: protected lua call failed: /modules/game_pokeBar/pokeBar.lua:75: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_pokeBar/pokeBar.lua:75: in function 'lifeBarAtual'
+	/modules/game_pokeBar/pokeBar.lua:57: in function </modules/game_pokeBar/pokeBar.lua:26>
+Exiting application..
+ERROR: Lua error: /modules/rc_sound/rcsound.lua:238: attempt to index global 'soundButton' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:238: in function 'terminate'
+	/modules/rc_sound/rcsound.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'rc_sound': LUA ERROR:
+/modules/rc_sound/rcsound.lua:238: attempt to index global 'soundButton' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:238: in function 'terminate'
+	/modules/rc_sound/rcsound.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Lua error: /modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/game_easybot/easybot.otmod:9:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'bot_simple': LUA ERROR:
+/modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/game_easybot/easybot.otmod:9:[@onUnload]:1: in main chunk
+ERROR: Lua error: /modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/client_textfind/extended.otmod:17:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'Pokemon Info': LUA ERROR:
+/modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/client_textfind/extended.otmod:17:[@onUnload]:1: in main chunk
+ERROR: Lua error: /modules/gamelib/protocolgame.lua:81: Opcode is not registered.
+stack traceback:
+	[C]: at 0x01086220
+	[C]: in function 'error'
+	/modules/gamelib/protocolgame.lua:81: in function 'unregisterExtendedOpcode'
+	/modules/game_dpanel/dpanel.lua:9: in function 'terminate'
+	/modules/game_dpanel/dpanel.otmod:9:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'game_dpanel': LUA ERROR:
+/modules/gamelib/protocolgame.lua:81: Opcode is not registered.
+stack traceback:
+	[C]: at 0x01086220
+	[C]: in function 'error'
+	/modules/gamelib/protocolgame.lua:81: in function 'unregisterExtendedOpcode'
+	/modules/game_dpanel/dpanel.lua:9: in function 'terminate'
+	/modules/game_dpanel/dpanel.otmod:9:[@onUnload]:1: in main chunk
+ERROR: Lua error: /modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/game_pokemon/pokemon.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'game_pokemon': LUA ERROR:
+/modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/game_pokemon/pokemon.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Lua error: /modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/game_npcdialog/npcdialog.otmod:9:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'game_npcdialog': LUA ERROR:
+/modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/game_npcdialog/npcdialog.otmod:9:[@onUnload]:1: in main chunk
+ERROR: Lua error: /modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/game_walking/walking.otmod:9:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'game_walking': LUA ERROR:
+/modules/rc_sound/rcsound.lua:322: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/rc_sound/rcsound.lua:322: in function 'setLabel'
+	/modules/rc_sound/rcsound.lua:316: in function 'stopSound'
+	/modules/rc_sound/rcsound.lua:247: in function 'onGameEnd'
+	/modules/rc_sound/rcsound.lua:236: in function 'terminate'
+	/modules/game_walking/walking.otmod:9:[@onUnload]:1: in main chunk
+WARNING: attempt to destroy widget 'autoLootButton' two times
+WARNING: attempt to destroy widget 'charactersWindow' two times
+WARNING: attempt to destroy widget 'charactersWindow' two times
+ERROR: Lua error: /modules/corelib/ui/effects.lua:39: attempt to index local 'widget' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/corelib/ui/effects.lua:39: in function 'cancelFade'
+	/modules/client_background/background.lua:52: in function 'terminate'
+	/modules/client_background/background.otmod:9:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'client_background': LUA ERROR:
+/modules/corelib/ui/effects.lua:39: attempt to index local 'widget' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/corelib/ui/effects.lua:39: in function 'cancelFade'
+	/modules/client_background/background.lua:52: in function 'terminate'
+	/modules/client_background/background.otmod:9:[@onUnload]:1: in main chunk
+WARNING: widget 'widget1181' was not explicitly destroyed
